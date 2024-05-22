@@ -5,7 +5,7 @@ function setup() {
 
   function draw() {
     stroke("blue");
-    FileList("red");
+    Fill("red");
 
     if(mouseIsPressed){
       rect(mouseX, mouseY, 20, 35);
